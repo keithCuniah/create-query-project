@@ -1,0 +1,88 @@
+{
+  "inputsForQueries": [
+    {
+      "label": "username",
+      "id": 1,
+      "isQueryable": true,
+      "typeOfValues": "string",
+      "values": [
+        {
+          "label": "Pierre",
+          "value": "Pierre"
+        },
+        {
+          "label": "Paul",
+          "value": "Paul"
+        },
+        {
+          "label": "Jacque",
+          "value": "Jacque"
+        }
+      ]
+    },
+    {
+      "label": "country",
+      "id": 2,
+      "isQueryable": true,
+      "typeOfValues": "string",
+      "values": [
+        {
+          "label": "France",
+          "value": "France"
+        },
+        {
+          "label": "Spain",
+          "value": "Spain"
+        },
+        {
+          "label": "Mauritius",
+          "value": "Mauritius"
+        }
+      ]
+    },
+    {
+      "label": "company",
+      "id": 3,
+      "isQueryable": true,
+      "typeOfValues": "string",
+      "values": [
+        {
+          "label": "Recognai",
+          "value": "Recognai"
+        },
+        {
+          "label": "Umbrella Corporation",
+          "value": "Umbrella Corporation"
+        },
+        {
+          "label": "Kiki's Delivery Service",
+          "value": "Kiki's Delivery Service"
+        },
+        {
+          "label": "Wayne Enterprises",
+          "value": "Wayne Enterprises"
+        }
+      ]
+    },
+    {
+      "label": "Not queryable element",
+      "id": 4,
+      "isQueryable": false,
+      "typeOfValues": "number",
+      "values": null
+    },
+    {
+      "label": "age",
+      "id": 5,
+      "isQueryable": true,
+      "typeOfValues": "number",
+      "values": null
+    }
+  ],
+  "customQuery": [
+    {
+      "queryString": "",
+      "id": 1
+    }
+  ]
+}
