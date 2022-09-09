@@ -12,8 +12,8 @@ export const postCustomQuery = async (queryString) => {
     if (!data.ok) {
       throw Error("Post didn't work");
     }
-    promiseData = await data.json();
-    console.log(`Post ${promiseData} in customQuery route in success`);
+    promiseData = await data.text();
+    console.log(`Post query succeed!`);
   } catch (err) {
     console.log(err);
   }
