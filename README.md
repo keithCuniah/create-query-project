@@ -6,9 +6,9 @@ An app to create custom queries with Vite/Vue3(options API)/Quasar/json-server
   npm i
 
 2/ Run the json-server
-  go to root
-  npx json-server --watch data/db.json
-  And go to http://localhost:3000/inputsForQueries
+  a/go to root
+  b/npx json-server --watch data/db.json
+  c/And go to http://localhost:3000/inputsForQueries
 
 
 3/ run the app
